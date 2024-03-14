@@ -41,6 +41,8 @@ https://www.atlassian.com/git/tutorials/install-git
 - git checkout <name>
     - switch between branches
     - git checkout -b <name> adds a new branch
+- git diff <other branch>
+    - See other code merging in
 
 ### THIS is a new section just delete it for demonstration 
 
