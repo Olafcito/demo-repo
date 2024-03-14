@@ -43,14 +43,16 @@ https://www.atlassian.com/git/tutorials/install-git
     - git checkout -b <name> adds a new branch
 - git diff <other branch>
     - See other code merging in
-- git merge <other branch>
-    -merges files
 - git push
     - Pushes it up to branch, copy paste:
     - git push --set-upstream origin <branch-name>
+#### Merging branches requests
+- push changes to branch
+- Either you can
+    - git merge <other branch> (from main)
+        - merges files and directly commits to merge
+    - push as seperate as branch, go to Github.com --> make pull request --> review --> merge
 
-### THIS is a new section just delete it for demonstration 
-- some changes here
 # Connect device to Github commands
 ## Connect machine to Github commands with SSH
 - creating a github key
