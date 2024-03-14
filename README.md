@@ -28,7 +28,7 @@ https://www.atlassian.com/git/tutorials/install-git
 - git commit -m "Title of the message to be added" -m "The description box"
     - saves code locally, isnt live on Github yet
     - no message will be returned
-    - Type ":q!" if forgetting to  add commit message
+    - Type ":q!" to escape in general
 - git push origin master | git push origin main
     - origin: std. location of Git repository
     - master: branch we want to push to 
@@ -43,9 +43,14 @@ https://www.atlassian.com/git/tutorials/install-git
     - git checkout -b <name> adds a new branch
 - git diff <other branch>
     - See other code merging in
+- git merge <other branch>
+    -merges files
+- git push
+    - Pushes it up to branch, copy paste:
+    - git push --set-upstream origin <branch-name>
 
 ### THIS is a new section just delete it for demonstration 
-
+- some changes here
 # Connect device to Github commands
 ## Connect machine to Github commands with SSH
 - creating a github key
