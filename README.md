@@ -68,18 +68,3 @@ https://www.atlassian.com/git/tutorials/install-git
 ## Verify that local Git client is configured with SSH key
 - ssh -T git@github.com
 - Should output Warning: Permanently added the ED25519 host key for IP address '140.82.121.4' to the list of known hosts. Hi Olafcito! You've successfully authenticated, but GitHub does not provide shell access. 
-
-## See ChatGPT for transfer to macbook
-
-### Public SSH key
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJBvKWyiB+GNbFuyyG6xYb1fIe7LF3Tel08nTppb9fGq solarsen12@gmail.com
-### Private SSH key
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACCQbylsogfhjWxbsshusWG9XyHuyxd03pdPJ06aW/XxqgAAAJgIq9ReCKvU
-XgAAAAtzc2gtZWQyNTUxOQAAACCQbylsogfhjWxbsshusWG9XyHuyxd03pdPJ06aW/Xxqg
-AAAEDK/Y5dAFYqfhwHmYc2KBx8w06107uCRWjzVXCi+IPyiJBvKWyiB+GNbFuyyG6xYb1f
-Ie7LF3Tel08nTppb9fGqAAAAFHNvbGFyc2VuMTJAZ21haWwuY29tAQ==
------END OPENSSH PRIVATE KEY-----
-
-#hola 
